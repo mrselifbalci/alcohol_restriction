@@ -2,7 +2,7 @@ let johnAge = prompt("Enter your age");
 let occupation = prompt("Enter your occupation.").toLowerCase();
 
 switch (true) {
-  case johnAge <= 13:
+  case johnAge <= 13:  
     console.log(`John is a boy. He is a/an ${occupation}`);
     break;
   case johnAge > 13 && johnAge <= 20:
